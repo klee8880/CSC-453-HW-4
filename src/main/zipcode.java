@@ -12,6 +12,8 @@ public class zipcode {
 	
 	
 	
+	
+	
 	public static void main(String [] args) throws SQLException, IOException {
 	
 		Connection conn = null;
