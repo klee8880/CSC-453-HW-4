@@ -10,6 +10,8 @@ public class zipcode {
 	private static final String url = "jdbc:oracle:thin:@acadoradbprd01.dpu.depaul.edu:1521:ACADPRD0";
 	private static final String QUERY = "select rl.name, rl.zipcode, z.latitude, z.longitude from restaurant_locations rl, zipcode z where rl.zipcode = z.zip";
 	
+	
+	
 	public static void main(String [] args) throws SQLException, IOException {
 	
 		Connection conn = null;
