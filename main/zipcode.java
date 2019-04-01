@@ -1,10 +1,5 @@
 package main;
 
-import java.io.File;
-import java.io.IOException;
-import java.sql.*;
-import java.util.Scanner;
-
 public class zipcode {
 
 	private static final String url = "jdbc:oracle:thin:@acadoradbprd01.dpu.depaul.edu:1521:ACADPRD0";
